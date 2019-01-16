@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "02213267-d31b-4715-bff4-92e325230540",
+            "Value": {
+                "id": "fb4043cd-23bb-4419-a447-ad4765306ab8",
+                "resourcePath": "objects\\obj_bigAsteroid\\obj_bigAsteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "041dfd70-1480-497c-884b-21c6172d01a5",
+            "Value": {
+                "id": "f08c2bf6-24d2-4f1b-b372-bcc60e1300e2",
+                "resourcePath": "objects\\obj_megaBossteroid\\obj_megaBossteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ca66fe6-1732-496d-aed8-e2121fe8f406",
             "Value": {
                 "id": "9d50265c-60f8-4921-b617-735f1238663b",
@@ -175,6 +191,14 @@
             }
         },
         {
+            "Key": "8aad83e0-9a65-44de-95ad-12611a66aee0",
+            "Value": {
+                "id": "f829b2d9-9f4d-4fa8-9641-d0f9db9bef3f",
+                "resourcePath": "objects\\obj_bossteroid\\obj_bossteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8e176967-e146-44c2-b3c7-717e5340374e",
             "Value": {
                 "id": "9d4180de-c3d3-411d-b64a-2d000ee852e9",
@@ -188,6 +212,30 @@
                 "id": "920e1c4c-b82a-4c5e-83f8-17341d53dfe4",
                 "resourcePath": "scripts\\rotate\\rotate.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "98ce52a9-5079-493b-87b7-7336449cba5b",
+            "Value": {
+                "id": "5bf5d966-92b5-4c8d-ac5b-2bb1b2c6e320",
+                "resourcePath": "objects\\obj_gigaBossteroid\\obj_gigaBossteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a2ee15fa-f737-4115-bb48-6b9566acfb90",
+            "Value": {
+                "id": "68ea010c-cfc2-455d-aaa1-d85d7eedafaf",
+                "resourcePath": "objects\\obj_asteroidThatKilledAllTheDinosaurs\\obj_asteroidThatKilledAllTheDinosaurs.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "abcd42ef-f9a1-47c2-80c5-61000e09a044",
+            "Value": {
+                "id": "fd7290bd-2e14-43c9-95e0-c7f542a76548",
+                "resourcePath": "objects\\obj_gameManager\\obj_gameManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -247,6 +295,14 @@
             }
         },
         {
+            "Key": "caf3085f-eaa7-4476-b56f-29e4a4e9d694",
+            "Value": {
+                "id": "a0ebbe5c-207e-4e4b-8e4a-7b07ad693f93",
+                "resourcePath": "objects\\obj_youWillDieAsteroid\\obj_youWillDieAsteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "9308a153-8b0b-4aa9-bf58-4a9b5a2f4d73",
@@ -292,6 +348,14 @@
                 "id": "699ab201-53cb-4c72-9750-18cb1cbc2a94",
                 "resourcePath": "views\\e61f9f7f-53b1-4bb2-9f35-8d1d4d7922e7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ebaacd22-6ae3-409f-b8a0-4fb934db957b",
+            "Value": {
+                "id": "6008c06d-ddfd-46d1-b317-18c02b0b16a1",
+                "resourcePath": "objects\\obj_superAsteroid\\obj_superAsteroid.yy",
+                "resourceType": "GMObject"
             }
         },
         {

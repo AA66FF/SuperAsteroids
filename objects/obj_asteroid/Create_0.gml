@@ -1,4 +1,10 @@
-xVel = random_range(-0.3,0.3);
-yVel = random_range(-0.3,0.3);
+xVel = random_range(-1.5,1.5);
+yVel = random_range(-1.5,1.5);
 ang = random_range(0,360);
-aVel = random_range(-2,2);
+image_angle = ang;
+aVel = random_range(-0.5,0.5);
+redness = 0;
+rednessDecay = 1.3;
+rednessFloor = 0;
+hp = 3;
+maxHp = hp;
