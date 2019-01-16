@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1b560a95-7252-444c-aef8-cc41b2c8c3ec",
+            "Value": {
+                "id": "8226a818-d5e9-4110-90df-086444e1bd11",
+                "resourcePath": "scripts\\calculateWeights\\calculateWeights.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1ef069f3-43f9-48b9-b430-ba5ec34d8bf7",
             "Value": {
                 "id": "424bd7eb-8857-4f30-889e-71e292f6e97b",
@@ -377,7 +385,8 @@
     ],
     "script_order": [
         "b548aa72-4113-452e-b127-ded2bde37f1e",
-        "9244b7ed-a3b5-48a7-8972-77212f758809"
+        "9244b7ed-a3b5-48a7-8972-77212f758809",
+        "1b560a95-7252-444c-aef8-cc41b2c8c3ec"
     ],
     "tutorial": ""
 }

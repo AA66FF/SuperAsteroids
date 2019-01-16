@@ -40,6 +40,18 @@ if (waveStart == true) {
 }
 
 if (waveSpawning == true) {
-	
+	//Weights to spawn
+	spawnNothing = 200;
+	spawn1 = toSpawn1*5;
+	spawn2 = toSpawn2*5;
+	spawn3 = toSpawn3*5;
+	spawn4 = toSpawn4*5;
+	spawn5 = toSpawn5*5;
+	spawn6 = toSpawn6*5;
+	spawn7 = toSpawn7*5;
+	spawn8 = toSpawn8*5;
+	allWeights = spawnNothing+spawn1+spawn2+spawn3+spawn4+spawn5+spawn6+spawn7+spawn8;
+	var r = random_range(0,allWeights);
+	calculateWeights();
 }
 
