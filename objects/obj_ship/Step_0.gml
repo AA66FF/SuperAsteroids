@@ -5,6 +5,10 @@ controlFire = keyboard_check(vk_space);
 angle += controlAng/10;
 image_angle = radtodeg(angle);
 
+rednessFloor = 240*(1-hp/maxHp);
+redness = floor(redness/rednessDecay);
+image_blend = make_color_hsv(0,min(redness+rednessFloor,255),255);
+
 controlAcc = rotate(controlAcc,angle);
 xAcc += controlAcc[0]*0.3;
 yAcc += controlAcc[1]*0.3;
@@ -63,3 +67,4 @@ if (y > room_height-25) {
 }
 
 fireCd -= 1;
+immunityFrames -= 1;

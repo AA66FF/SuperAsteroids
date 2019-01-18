@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "122bf4c8-b867-403f-81d6-1bb05a957ee4",
+            "Value": {
+                "id": "9b00d64a-7597-4c8e-9134-65ff5608b42a",
+                "resourcePath": "objects\\obj_hudManager\\obj_hudManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b560a95-7252-444c-aef8-cc41b2c8c3ec",
             "Value": {
                 "id": "8226a818-d5e9-4110-90df-086444e1bd11",

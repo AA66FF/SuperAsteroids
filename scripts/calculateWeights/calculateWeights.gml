@@ -2,33 +2,33 @@ r = argument0;
 currentWeight = 0;
 currentWeight += spawnNothing;
 if (r > currentWeight and r < currentWeight+spawn1) {
-	//Do something
+	spawning = 1;
 }
 currentWeight += spawn1;
 if (r > currentWeight and r < currentWeight+spawn2) {
-	//Do something
+	spawning = 2;
 }
 currentWeight += spawn2;
 if (r > currentWeight and r < currentWeight+spawn3) {
-	//Do something
+	spawning = 3;
 }
 currentWeight += spawn3;
 if (r > currentWeight and r < currentWeight+spawn4) {
-	//Do something
+	spawning = 4;
 }
 currentWeight += spawn4;
 if (r > currentWeight and r < currentWeight+spawn5) {
-	//Do something
+	spawning = 5;
 }
 currentWeight += spawn5;
 if (r > currentWeight and r < currentWeight+spawn6) {
-	//Do something
+	spawning = 6;
 }
 currentWeight += spawn6;
 if (r > currentWeight and r < currentWeight+spawn7) {
-	//Do something
+	spawning = 7;
 }
 currentWeight += spawn7;
 if (r > currentWeight and r < currentWeight+8) {
-	//Do something
+	spawning = 8;
 }
