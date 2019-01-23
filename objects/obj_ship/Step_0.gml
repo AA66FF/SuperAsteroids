@@ -1,3 +1,5 @@
+if (room == rm_space) {
+image_alpha = 1;
 controlAcc = [0,keyboard_check(vk_down) - keyboard_check(vk_up)];
 controlAng = keyboard_check(vk_left) - keyboard_check(vk_right);
 controlFire = keyboard_check(vk_space);
@@ -68,3 +70,8 @@ if (y > room_height-25) {
 
 fireCd -= 1;
 immunityFrames -= 1;
+}
+
+if (room == rm_menu) {
+	image_alpha = 0;
+}

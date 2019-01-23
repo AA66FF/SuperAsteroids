@@ -25,5 +25,10 @@ regenLevel = 0;
 armorLevel = 0;
 shipSlowLevel = 0;
 shipWeakenLevel = 0;
+credits = 0;
+
+currentRoom = rm_space;
+shipPos = [0,0];
+shipVel = [0,0];
 
 asteroids = [];

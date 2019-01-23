@@ -1,3 +1,4 @@
+if (room == rm_space) {
 x += xVel;
 y += yVel;
 ang += aVel;
@@ -34,4 +35,9 @@ if (y < 0) {
 if (y > room_height) {
 	y = room_height;
 	yVel *= -1;
+}
+}
+
+if (room == rm_menu) {
+	image_alpha = 0;
 }

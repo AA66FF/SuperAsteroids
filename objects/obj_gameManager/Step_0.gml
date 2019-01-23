@@ -1,3 +1,4 @@
+if (room == rm_space) {
 _newAsteroids = [];
 astNumber = 0;
 for (var i = array_length_1d(asteroids)-1; i > -1; i--) {
@@ -13,6 +14,24 @@ asteroids = _newAsteroids;
 if (array_length_1d(asteroids) == 0 and not waveSpawning) {
 	wave += 1;
 	show_debug_message("WAVE "+string(wave));
+	if (wave > 2) {
+		var rand = irandom_range(0,6);
+		if (rand == 0) {
+			magneticLevel += 1;
+		} else if (rand == 1) {
+			speedLevel += 1;
+		} else if (rand == 2) {
+			healthLevel += 1;
+		} else if (rand == 3) {
+			regenLevel += 1;
+		} else if (rand == 4) {
+			armorLevel += 1;
+		} else if (rand == 5) {
+			shipSlowLevel += 1;
+		} else if (rand == 6) {
+			shipWeakenLevel += 1;
+		}
+	}
 	waveStart = true;
 }
 
@@ -158,4 +177,4 @@ if (spawning != 0) {
 		spawning = 0;
 	}
 }
-
+}
