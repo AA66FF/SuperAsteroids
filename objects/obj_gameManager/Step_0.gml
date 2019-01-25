@@ -7,6 +7,7 @@ for (var i = array_length_1d(asteroids)-1; i > -1; i--) {
 		_newAsteroids[_end] = asteroids[i];
 	} else {
 		instance_destroy(asteroids[i],true)
+		asteroidsDestroyed += 1;
 	}
 }
 asteroids = _newAsteroids;
@@ -81,6 +82,36 @@ if (wave == 5) {
 	superAsteroidLimits = [2,2];
 	bossteroidLimits = [0,0];
 	megaBossteroidLimits = [0,0];
+	gigaBossteroidLimits = [0,0];
+	ywdAsteroidLimits = [0,0];
+	killedAllTheDinosaursLimits = [0,0];
+}
+if (wave == 6) {
+	asteroidLimits = [13,18];
+	bigAsteroidLimits = [7,9];
+	superAsteroidLimits = [3,4];
+	bossteroidLimits = [0,0];
+	megaBossteroidLimits = [0,0];
+	gigaBossteroidLimits = [0,0];
+	ywdAsteroidLimits = [0,0];
+	killedAllTheDinosaursLimits = [0,0];
+}
+if (wave == 7) {
+	asteroidLimits = [16,22];
+	bigAsteroidLimits = [9,12];
+	superAsteroidLimits = [4,5];
+	bossteroidLimits = [1,1];
+	megaBossteroidLimits = [0,0];
+	gigaBossteroidLimits = [0,0];
+	ywdAsteroidLimits = [0,0];
+	killedAllTheDinosaursLimits = [0,0];
+}
+if (wave == 8) {
+	asteroidLimits = [0,0];
+	bigAsteroidLimits = [0,0];
+	superAsteroidLimits = [0,0];
+	bossteroidLimits = [0,0];
+	megaBossteroidLimits = [1,1];
 	gigaBossteroidLimits = [0,0];
 	ywdAsteroidLimits = [0,0];
 	killedAllTheDinosaursLimits = [0,0];

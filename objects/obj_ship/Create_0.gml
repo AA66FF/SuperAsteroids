@@ -14,5 +14,8 @@ rednessFloor = 0;
 hp = 10;
 maxHp = hp;
 
+spd = 0.3;
+
+damage = 1;
 fireCd = 0;
 fireCdAdd = 10;

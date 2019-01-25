@@ -1,5 +1,7 @@
 event_inherited();
-xVel = random_range(-0.85,0.85);
-yVel = random_range(-0.85,0.85);
-hp = 48;
+xVel = random_range(-1.7,1.7);
+yVel = random_range(-1.7,1.7);
+hp = 324;
 maxHp = hp;
+damage = 8;
+

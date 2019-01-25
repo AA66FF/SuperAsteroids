@@ -12,8 +12,8 @@ redness = floor(redness/rednessDecay);
 image_blend = make_color_hsv(0,min(redness+rednessFloor,255),255);
 
 controlAcc = rotate(controlAcc,angle);
-xAcc += controlAcc[0]*0.3;
-yAcc += controlAcc[1]*0.3;
+xAcc += controlAcc[0]*spd;
+yAcc += controlAcc[1]*spd;
 
 x += xVel;
 y += yVel;
@@ -24,7 +24,7 @@ yAcc = 0;
 
 dragVector = [-xVel,-yVel];
 dragAngle = getAngle(dragVector[0],dragVector[1]);
-dragVector = [sin(dragAngle)*0.1,-cos(dragAngle)*0.1]
+dragVector = [sin(dragAngle)*spd/3,-cos(dragAngle)*spd/3]
 if (abs(xVel) < abs(dragVector[0])) {
 	xVel = 0;
 } else {
@@ -46,8 +46,10 @@ if (controlFire and fireCd <= 0) {
 	var laserPosAdd = rotate([0,-40],angle);
 	laser.x += laserPosAdd[0];
 	laser.y += laserPosAdd[1];
+	laser.damage = damage;
 	fireCd = fireCdAdd;
 	sprite_index = spr_shipFiring;
+	obj_gameManager.lasersShot += 1;
 }
 
 if (x < 25) {

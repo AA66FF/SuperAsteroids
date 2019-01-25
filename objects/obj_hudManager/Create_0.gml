@@ -1,3 +1,3 @@
-damageCost = 10;
-speedCost = 10;
-healthCost = 10;
+damageCost = 30;
+speedCost = 30;
+healthCost = 30;

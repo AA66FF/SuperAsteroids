@@ -1,5 +1,5 @@
-xVel = random_range(-1.5,1.5);
-yVel = random_range(-1.5,1.5);
+xVel = random_range(-3,3);
+yVel = random_range(-3,3);
 ang = random_range(0,360);
 image_angle = ang;
 image_alpha = 0;
@@ -8,7 +8,8 @@ redness = 0;
 rednessDecay = 1.3;
 rednessFloor = 0;
 age = 0;
-hp = 3;
+hp = 4;
 dead = false;
 dyingTime = 5;
 maxHp = hp;
+damage = 1;

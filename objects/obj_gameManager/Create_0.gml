@@ -27,8 +27,17 @@ shipSlowLevel = 0;
 shipWeakenLevel = 0;
 credits = 0;
 
+asteroidsDestroyed = 0;
+creditsGained = 0;
+lasersShot = 0;
+lasersHit = 0;
+damageDealt = 0;
+damageTaken = 0;
+
 currentRoom = rm_space;
 shipPos = [0,0];
 shipVel = [0,0];
 
 asteroids = [];
+
+instance_create_layer(0,0,"Instances",obj_hudManager);
