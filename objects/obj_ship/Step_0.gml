@@ -1,8 +1,17 @@
 if (room == rm_space) {
-image_alpha = 1;
-controlAcc = [0,keyboard_check(vk_down) - keyboard_check(vk_up)];
-controlAng = keyboard_check(vk_left) - keyboard_check(vk_right);
-controlFire = keyboard_check(vk_space);
+if (not dead and not dying) {
+	image_alpha = 1;
+}
+
+if (not dead and not dying) {
+	controlAcc = [0,keyboard_check(vk_down) - keyboard_check(vk_up)];
+	controlAng = keyboard_check(vk_left) - keyboard_check(vk_right);
+	controlFire = keyboard_check(vk_space);
+} else {
+	controlAcc = [0,0];
+	controlAng = 0;
+	controlFire = 0;
+}
 
 angle += controlAng/10;
 image_angle = radtodeg(angle);
@@ -72,6 +81,18 @@ if (y > room_height-25) {
 
 fireCd -= 1;
 immunityFrames -= 1;
+}
+
+if (hp <= 0) {
+	dying = true;
+}
+
+if (dying == true) {
+	image_alpha -= 1/50;
+}
+
+if (image_alpha <= 0) {
+	dead = true;
 }
 
 if (room == rm_menu) {

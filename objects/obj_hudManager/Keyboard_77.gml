@@ -1,1 +1,3 @@
-room = rm_menu;
+if (not obj_ship.dying and not obj_ship.dead) {
+	room = rm_menu;
+}

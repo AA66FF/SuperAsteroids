@@ -10,6 +10,8 @@ immunityFrames = 0;
 redness = 0;
 rednessDecay = 1.12;
 rednessFloor = 0;
+dying = false;
+dead = false;
 
 hp = 10;
 maxHp = hp;

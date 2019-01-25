@@ -10,6 +10,12 @@ if (room == rm_space) {
 	
 	draw_set_halign(fa_right);
 	draw_text_transformed(920,920,"Press M to go to Menu",1.3,1.3,0);
+	
+	if (obj_ship.dead) {
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_center);
+		draw_text_transformed(room_width/2,room_height/2,"GAME OVER",6,6,0);
+	}
 }
 
 if (room == rm_menu) {
@@ -19,7 +25,7 @@ if (room == rm_menu) {
 	
 	draw_text_transformed(220,920,"Credits: "+string(obj_gameManager.credits),1.3,1.3,0);
 	
-	draw_text_transformed(40,60,"Repair Ship: 10 credits",1.3,1.3,0);
+	draw_text_transformed(40,60,"Repair Ship: "+string(repairCost)+"credits",1.3,1.3,0);
 	draw_text_transformed(40,120,"Upgrade Damage: "+string(damageCost)+" credits",1.3,1.3,0);
 	draw_text_transformed(40,180,"Upgrade Speed: "+string(speedCost)+" credits",1.3,1.3,0);
 	draw_text_transformed(40,240,"Upgrade Health: "+string(healthCost)+" credits",1.3,1.3,0);
