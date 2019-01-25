@@ -1,10 +1,12 @@
 wx = window_mouse_get_x();
 wy = window_mouse_get_y();
 
+repairCost = repairCostBase + repairCostGrowth*(obj_ship.maxHp-obj_ship.hp)
+
 if (room == rm_menu) {
 	if (mouse_check_button_released(mb_left) and wx >= 30 and wy >= 30
-	and wx <= 400 and wy <= 70 and obj_gameManager.credits >= 10) {
-		obj_gameManager.credits -= 10;
+	and wx <= 400 and wy <= 70 and obj_gameManager.credits >= repairCost) {
+		obj_gameManager.credits -= repairCost;
 		obj_ship.hp = obj_ship.maxHp;
 	}
 	if (mouse_check_button_released(mb_left) and wx >= 30 and wy >= 90

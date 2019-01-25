@@ -116,6 +116,37 @@ if (wave == 8) {
 	ywdAsteroidLimits = [0,0];
 	killedAllTheDinosaursLimits = [0,0];
 }
+if (wave == 9) {
+	asteroidLimits = [21,27];
+	bigAsteroidLimits = [12,16];
+	superAsteroidLimits = [5,7];
+	bossteroidLimits = [2,2];
+	megaBossteroidLimits = [0,0];
+	gigaBossteroidLimits = [0,0];
+	ywdAsteroidLimits = [0,0];
+	killedAllTheDinosaursLimits = [0,0];
+}
+if (wave == 10) {
+	asteroidLimits = [0,0];
+	bigAsteroidLimits = [0,0];
+	superAsteroidLimits = [0,0];
+	bossteroidLimits = [0,0];
+	megaBossteroidLimits = [3,3];
+	gigaBossteroidLimits = [0,0];
+	ywdAsteroidLimits = [0,0];
+	killedAllTheDinosaursLimits = [0,0];
+}
+if (wave == 11) {
+	asteroidLimits = [25,31];
+	bigAsteroidLimits = [15,19];
+	superAsteroidLimits = [7,10];
+	bossteroidLimits = [2,3];
+	megaBossteroidLimits = [1,1];
+	gigaBossteroidLimits = [0,0];
+	ywdAsteroidLimits = [0,0];
+	killedAllTheDinosaursLimits = [0,0];
+}
+
 
 if (waveStart) {
 	toSpawn1 = irandom_range(asteroidLimits[0],asteroidLimits[1]);
