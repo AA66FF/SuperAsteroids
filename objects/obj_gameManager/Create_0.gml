@@ -1,6 +1,7 @@
 wave = 0;
 waveStart = false;
 waveSpawning = false;
+win = false;
 spawning = 0;
 toSpawn1 = 0;
 toSpawn2 = 0;

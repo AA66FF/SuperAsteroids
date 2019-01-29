@@ -146,6 +146,17 @@ if (wave == 11) {
 	ywdAsteroidLimits = [0,0];
 	killedAllTheDinosaursLimits = [0,0];
 }
+if (wave == 12) {
+	asteroidLimits = [0,0;
+	bigAsteroidLimits = [0,0];
+	superAsteroidLimits = [0,0];
+	bossteroidLimits = [0,0];
+	megaBossteroidLimits = [0,0];
+	gigaBossteroidLimits = [0,0];
+	ywdAsteroidLimits = [0,0];
+	killedAllTheDinosaursLimits = [0,0];
+	win = true;
+}
 
 
 if (waveStart) {

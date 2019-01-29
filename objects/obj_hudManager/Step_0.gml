@@ -38,5 +38,9 @@ if (obj_ship.dead and deathAlpha < 1) {
 	deathAlpha += 0.02;
 }
 
+if (obj_gameManager.win and winAlpha < 1) {
+	winAlpha += 0.02;
+}
+
 age += 1;
 

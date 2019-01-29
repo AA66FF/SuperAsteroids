@@ -18,6 +18,12 @@ if (room == rm_space) {
 		draw_set_valign(fa_center);
 		draw_text_transformed(room_width/2,room_height/2,"GAME OVER",6,6,0);
 	}
+	if (obj_gameManager.win) {
+		draw_set_alpha(winAlpha);
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_center);
+		draw_text_transformed(room_width/2,room_height/2,"YOU WIN",6,6,0);
+	}
 }
 
 if (room == rm_menu) {
