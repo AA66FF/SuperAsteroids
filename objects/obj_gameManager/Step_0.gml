@@ -147,7 +147,7 @@ if (wave == 11) {
 	killedAllTheDinosaursLimits = [0,0];
 }
 if (wave == 12) {
-	asteroidLimits = [0,0;
+	asteroidLimits = [0,0];
 	bigAsteroidLimits = [0,0];
 	superAsteroidLimits = [0,0];
 	bossteroidLimits = [0,0];
