@@ -34,7 +34,7 @@ if (room == rm_menu) {
 	
 	draw_text_transformed(220,920,"Credits: "+string(obj_gameManager.credits),1.3,1.3,0);
 	
-	draw_text_transformed(40,60,"Repair Ship: "+string(repairCost)+"credits",1.3,1.3,0);
+	draw_text_transformed(40,60,"Repair Ship: "+string(repairCost)+" credits",1.3,1.3,0);
 	draw_text_transformed(40,120,"Upgrade Damage: "+string(damageCost)+" credits",1.3,1.3,0);
 	draw_text_transformed(40,180,"Upgrade Speed: "+string(speedCost)+" credits",1.3,1.3,0);
 	draw_text_transformed(40,240,"Upgrade Health: "+string(healthCost)+" credits",1.3,1.3,0);

@@ -91,7 +91,7 @@ if (dying == true) {
 	image_alpha -= 1/50;
 }
 
-if (image_alpha <= 0) {
+if (image_alpha <= 0 and room != rm_menu) {
 	dead = true;
 }
 
