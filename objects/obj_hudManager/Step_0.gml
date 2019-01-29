@@ -29,3 +29,14 @@ if (room == rm_menu) {
 	}
 }
 
+if (age >= 200) {
+	controlAlpha -= 0.008;
+	controlAlpha = max(controlAlpha,0);
+}
+
+if (obj_ship.dead and deathAlpha < 1) {
+	deathAlpha += 0.02;
+}
+
+age += 1;
+
